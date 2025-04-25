@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    font-size: 1.05rem;
+    background-color: #fff;
+    color: #111;
+  }
+  
+  h1, h2 {
+    margin-top: 2rem;
+  }
+
+  h1, h2, h3 {
+    line-height: 1.4;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin: 1.2rem 0;
+  }
+  
+  img {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+  }
+  
+  hr {
+    margin: 3rem 0;
+  }
+  

@@ -1,0 +1,55 @@
+---
+title: "UNICEF Adolescent Health Dashboard Report"
+format:
+  html:
+    css: ../styles.css
+    number-sections: false
+    page-layout: full
+    theme: flatly
+    ouyput-file: ../index.html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Introduction
+
+This report visualizes key UNICEF adolescent health indicators using cleaned datasets. The focus areas include gender-based health disparities, sanitation correlation, time trends, and country-level rankings.
+
+---
+
+# Is Sanitaion the Missing Link
+
+Imagine growing up without access to clean water, a safe toilet, or good hygiene. This is everyday life for millions of teenagers. This graph demonstrates the strong correlation between teenage health outcomes and access to sanitation, which is something that many of us take for granted. Youth health is frequently better in nations with greater sanitation coverage. It serves as a reminder that good health begins not in the hospital but rather in the home, school, and the fundamental amenities that maintain safe and hygienic communities. By investing in sanitation, we are safeguarding future generations, not just constructing restrooms.
+
+![Sanitation vs Health](figures/scatterplot_linear_reg_line.png){width=75%}
+
+---
+
+# Health Score Trend – Ireland
+
+The adolescent health score in Ireland has shown a consistent upward trend, reflecting effective national health initiatives. Notably, a steep improvement phase can be seen between 2000 and 2020, followed by a plateau at 4.7–4.8. This flattening could indicate that Ireland has optimized key health parameters. However, the slight dip in the final year suggests emerging challenges, possibly related to mental health or socioeconomic pressures post-pandemic. Continued monitoring and innovative interventions will be key to sustaining progress.
+
+![Health Score Over Time – Ireland](figures/line_chart.png){width=75%}
+
+---
+
+# Does Wealth equal Health
+It is simple to believe that young people in affluent nations are inherently healthier. But is that accurate? The relationship between a country's economic power, as indicated by GDP per capita, and the health of its teenagers is examined in this graphic. Although there is a general trend that higher-income nations perform better, the situation isn't flawless. Some wealthy countries still struggle to provide for their young, while some lower-income countries do so admirably. What was the takeaway? Although money is helpful, what really matters is how it is used—for equity, healthcare, and education.
+
+![Top 10 Countries](figures/bar_chart.png){width=75%}
+
+---
+
+# Health of Adolescents Nationwide
+
+Consider being fifteen years old and having your health results dictated by your birth nation. Adolescent health is not spread equitably, as this map demonstrates. Young people are raised in some regions of the world where they have access to clean water, good healthcare, and the support networks they require. It is far more precarious in others. Real teens work behind each colored nation; some are doing well, while others are just attempting to make ends meet. Considering how unequal the starting line is for millions of teenagers worldwide and the implications for their lives, this image challenges us to think about it.
+
+![World Map](figures/world_map.png){width=75%}
+
+---
+
+# Conclusion
+
+Through visual exploration of these indicators, this report emphasizes disparities in adolescent well-being — particularly by gender and sanitation access. These findings support data-driven decision-making for adolescent health improvements globally.
